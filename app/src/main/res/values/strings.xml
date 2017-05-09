@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">ChamadoApp</string>
+    <string name="titulo_chamado_label">Titulo</string>
+    <string name="descricao_chamado_label">Descrição</string>
+    <string name="anexo_chamado_label">Anexo</string>
+    <string name="responsavel_chamado_label">Responsável</string>
+    <string name="status_chamado_label">Status</string>
+    <string name="prioridade_chamado_label">Prioridade</string>
+    <string name="login_email_label">Digite seu e-mail</string>
+    <string name="label_login_button">Submit</string>
+    <string name="login_password_label">Digite sua senha</string>
+
+    <string-array name="responsavel_chamado">
+        <item>RH</item>
+        <item>Financeiro</item>
+        <item>Marketing</item>
+        <item>TI</item>
+        <item>Administrativo</item>
+    </string-array>
+
+    <string-array name="status_chamado">
+        <item>Aberto</item>
+        <item>Fechado</item>
+        <item>Em Andamento</item>
+        <item>Cancelado</item>
+    </string-array>
+
+    <string-array name="prioridade_chamado">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </string-array>
+</resources>
