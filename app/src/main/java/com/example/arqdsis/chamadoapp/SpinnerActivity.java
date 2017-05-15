@@ -1,10 +1,13 @@
 package com.example.arqdsis.chamadoapp;
 
+import android.view.View;
+import android.widget.AdapterView;
+
 /**
  * Created by arqdsis on 09/05/2017.
  */
-public class SpinnerActivity extends GerenciarChamado implements OnItemSelectedListener {
-    ...
+public class SpinnerActivity extends GerenciarChamado implements AdapterView.OnItemSelectedListener {
+
 
     public void onItemSelected(AdapterView<?> parent, View view,
                                int pos, long id) {

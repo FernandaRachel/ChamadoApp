@@ -9,6 +9,11 @@
     <string name="login_email_label">Digite seu e-mail</string>
     <string name="label_login_button">Submit</string>
     <string name="login_password_label">Digite sua senha</string>
+    <string name="label_chamado_cancelar">Cancelar</string>
+    <string name="label_alterar_chamado">Alterar Chamado</string>
+    <string name="label_responder_chamado">Responder Chamado</string>
+    <string name="label_nova_fila">Nova Fila</string>
+    <string name="label_buscar_fila">Buscar Fila</string>
 
     <string-array name="responsavel_chamado">
         <item>RH</item>
