@@ -18,7 +18,15 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void loginSubmit(View view){
-        Intent intent = new Intent(this, GerenciarChamado.class);
+        /*LoginRequester requester = new LoginRequester(this, this);
+        String login = editLogin.getText().toString();
+        String senha = editSenha.getText().toString();
+        if (login.isEmpty() || senha.isEmpty()) {
+            Toast.makeText(this, "Login ou senha vazio", Toast.LENGTH_SHORT).show();
+        } else {
+            requester.execute("http://107.170.41.209:8080/chamado/rest/v1/logar?login=" + login+"&senha="+senha);
+        }*/
+        Intent intent = new Intent(this, MenuActvity.class);
         startActivity(intent);
     }
 

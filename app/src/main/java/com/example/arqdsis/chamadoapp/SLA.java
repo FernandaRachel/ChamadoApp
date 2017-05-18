@@ -1,26 +1,31 @@
 package com.example.arqdsis.chamadoapp;
 
-public class Fila {
-	
+import java.io.Serializable;
+
+public class SLA implements Serializable {
+
+	private static final long serialVersionUID = 1L;
+
     private Long id;
 	private String descricao;
-	private Usuario gerente;
+	private Integer SLATempo;
+	private Integer prioridade;
 	private Integer ativo;
-    transient String nomeSolucionador;
-
-	public Fila(Long id, String descricao, Usuario gerente, String nomeSolucionador) {
-		this.id = id;
-		this.descricao = descricao;
-		this.gerente = gerente;
-        this.nomeSolucionador = nomeSolucionador;
-	}
-
+	
 	public Long getId() {
 		return id;
 	}
 
 	public void setId(Long id) {
 		this.id = id;
+	}
+
+	public Integer getPrioridade() {
+		return prioridade;
+	}
+
+	public void setPrioridade(Integer prioridade) {
+		this.prioridade = prioridade;
 	}
 
 	public String getDescricao() {
@@ -31,14 +36,14 @@ public class Fila {
 		this.descricao = descricao;
 	}
 
-	public Usuario getGerente() {
-		return gerente;
+	public Integer getSLATempo() {
+		return SLATempo;
 	}
 
-	public void setGerente(Usuario gerente) {
-		this.gerente = gerente;
+	public void setSLATempo(Integer sLATempo) {
+		SLATempo = sLATempo;
 	}
-	
+
 	public Integer getAtivo() {
 		return ativo;
 	}
@@ -46,10 +51,6 @@ public class Fila {
 	public void setAtivo(Integer ativo) {
 		this.ativo = ativo;
 	}
-
-	public String getNomeSolucionador() { return nomeSolucionador; }
-
-	public void setNomeSolucionador(String nomeSolucionador) { this.nomeSolucionador = nomeSolucionador; }
 
 	@Override
 	public int hashCode() {
@@ -67,7 +68,7 @@ public class Fila {
 			return false;
 		if (getClass() != obj.getClass())
 			return false;
-		Fila other = (Fila) obj;
+		SLA other = (SLA) obj;
 		if (id == null) {
 			if (other.id != null)
 				return false;
@@ -78,10 +79,7 @@ public class Fila {
 
 	@Override
 	public String toString() {
-		return "Fila [id=" + id + ", descricao=" + descricao+"]";
+		return "SLA [id=" + id + ", descricao=" + descricao + ", SLATempo=" + SLATempo + "]";
 	}
-    
 	
-    
-    
 }

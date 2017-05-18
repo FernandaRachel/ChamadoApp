@@ -14,6 +14,9 @@
     <string name="label_responder_chamado">Responder Chamado</string>
     <string name="label_nova_fila">Nova Fila</string>
     <string name="label_buscar_fila">Buscar Fila</string>
+    <string name="label_direcionar_chamado">Chamados</string>
+    <string name="label_direcionar_fila">Filas</string>
+    <string name="label_direcionar_usuario">Usuários</string>
 
     <string-array name="responsavel_chamado">
         <item>RH</item>
