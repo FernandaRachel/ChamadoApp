@@ -76,23 +76,17 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/label_chamado_cancelar"
-        android:onClick=""
+        android:onClick="backToMenu"
         />
 
         <Button
+            android:id="@+id/button"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/label_alterar_chamado"
             android:onClick=""
-            />
-        <Button
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/label_responder_chamado"
-            android:onClick=""
-            />
-
+            android:text="@string/label_criar_chamado" />
 
 
     </LinearLayout>
+
 </LinearLayout>

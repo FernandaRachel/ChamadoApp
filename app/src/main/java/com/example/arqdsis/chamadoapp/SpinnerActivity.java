@@ -6,7 +6,7 @@ import android.widget.AdapterView;
 /**
  * Created by arqdsis on 09/05/2017.
  */
-public class SpinnerActivity extends GerenciarChamado implements AdapterView.OnItemSelectedListener {
+public class SpinnerActivity extends CriarChamados implements AdapterView.OnItemSelectedListener {
 
 
     public void onItemSelected(AdapterView<?> parent, View view,

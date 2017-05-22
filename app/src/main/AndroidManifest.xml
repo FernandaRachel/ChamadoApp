@@ -15,7 +15,15 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".GerenciarChamado"></activity>
+        <activity android:name=".CriarChamados" />
+        <activity android:name=".MenuActvity" />
+        <activity android:name=".GerenciarFila" />
+        <activity android:name=".ListaFila" />
+        <activity android:name=".SpinnerActivity" />
+        <activity
+            android:name=".MenuNavigationActivity"
+            android:label="@string/title_activity_menu_navigation"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 
 </manifest>

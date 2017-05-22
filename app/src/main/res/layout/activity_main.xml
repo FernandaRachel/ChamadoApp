@@ -34,6 +34,7 @@
         android:layout_height="wrap_content"
         android:hint="@string/login_email_label"
         android:layout_weight="1"
+        android:inputType="textEmailAddress"
         />
 </LinearLayout>
     <LinearLayout

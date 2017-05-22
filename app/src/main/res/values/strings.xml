@@ -10,7 +10,7 @@
     <string name="label_login_button">Submit</string>
     <string name="login_password_label">Digite sua senha</string>
     <string name="label_chamado_cancelar">Cancelar</string>
-    <string name="label_alterar_chamado">Alterar Chamado</string>
+    <string name="label_criar_chamado">Criar Chamado</string>
     <string name="label_responder_chamado">Responder Chamado</string>
     <string name="label_nova_fila">Nova Fila</string>
     <string name="label_buscar_fila">Buscar Fila</string>
@@ -40,4 +40,10 @@
         <item>4</item>
         <item>5</item>
     </string-array>
+    <string name="title_activity_menu_navigation">MenuNavigationActivity</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
 </resources>
