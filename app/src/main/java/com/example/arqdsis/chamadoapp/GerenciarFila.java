@@ -21,8 +21,10 @@ public class GerenciarFila extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.gerenciar_fila);
 
-
     }
+
+
+    OkHttp
 
     public void buscarFila(View view){
         Intent intent = new Intent(this, ListaFila.class);

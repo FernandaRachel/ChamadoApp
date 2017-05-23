@@ -44,5 +44,6 @@ public class CriarChamados extends AppCompatActivity {
 
     public void backToMenu(View view) {
         Intent intent = new Intent(this, MenuActvity.class);
+        startActivity(intent);
     }
 }
